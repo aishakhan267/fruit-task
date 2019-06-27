@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Fruit Shop</title>
+</head>
+
+<body>
+    <div id="major">
+        <header>
+            <h1>Fruit Shop</h1>
+        </header>
+        <section class="total">
+            <h2>I have Rs. <input type="text" id="all-about">
+            </h2>
+
+        </section>
+        <section class="my-expenses">
+            <h1>Your total is Rs.<span id="totalbill"></span></h1>
+        </section>
+        <div class="fruits">
+            <div id="combination">
+                <div class="my-choice">
+                    <div class="green">
+                        <h2>Rs. 10</h2>
+                    </div>
+                    <div class="whole">
+                        <figure>
+                            <img src="images/red-apple.png" alt="apple-image">
+                            <figcaption>
+                                <h2>Apple</h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="calculation">
+                        <button class="minus-btn" onclick="minusApple()"><i class="fas fa-minus"></i>
+                        </button>
+                        <input type="text" id="apple">
+                        <button class="plus-btn" onclick="addApple()"><i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="my-choice">
+                    <div class="green">
+                        <h2>Rs. 15</h2>
+                    </div>
+                    <div class="whole">
+                        <figure>
+                            <img src="images/orange.jpeg" alt="orange-image">
+                            <figcaption>
+                                <h2>Orange</h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="calculation">
+                        <button class="minus-btn" onclick="minusOrange()"><i class="fas fa-minus"></i></button>
+                        <input type="text" id="orange">
+                        <button class="plus-btn" onclick="addOrange()"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="my-choice">
+                    <div class="green">
+                        <h2>Rs. 7</h2>
+                    </div>
+                    <div class="whole">
+                        <figure>
+                            <img src="images/banana-image.jpeg" alt="banana-image">
+                            <figcaption>
+                                <h2>Banana</h2>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="calculation">
+                        <button class="minus-btn" onclick="minusBanana()"><i class="fas fa-minus"></i></button>
+                        <input type="text" id="banana">
+                        <button class="plus-btn" onclick="addBanana()"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

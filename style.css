@@ -1,0 +1,160 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#major {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+header {
+    background-image: linear-gradient(to bottom, #3c4143, #5d6477, #3c4143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+}
+header h1 {
+    color: white;
+    /* padding-top: 10px; */
+}
+h2 {
+    margin-top:23px;
+    font-size:24px;
+    
+}
+.total {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    /* padding: 16px auto; */
+}
+.total #all-about {
+    border-radius: 4px;
+    border: 1px solid rgb(231, 225, 225);
+    padding:3px 4px;
+    background-color: transparent;
+    font-size:20px;
+    text-align: center;
+}
+.my-expenses {
+    background-color: #efe2cc;
+    height:180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-expenses h1 {
+    font-size:28px;
+}
+span {
+    border: none;
+    background-color: transparent;
+    color: red;
+    font-size: 30px;
+    padding: 7px 39px;
+}
+.fruits {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #3e4447, #5f677a, #41464b);
+    padding: 32px 0;
+}
+img {
+    height:100px;
+    width:130px;
+}
+.my-choice {
+    display: flex;
+    flex-direction: column;
+    padding-left:30px;
+    padding-right:30px;
+}
+#combination {
+    display: flex;
+}
+.my-choice .green {
+    background-color: #346e34;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    border-radius:4px 4px 0 0;
+}
+.whole img {
+    align-self: center;
+}
+.whole {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+}
+figcaption {
+    display: flex;
+    flex-direction: column;
+}
+figcaption>h2 {
+    align-self: center;
+    margin-top:4px;
+}
+.calculation {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:20px;
+    border-radius: 0 0 4px 4px;
+}
+.calculation .minus-btn {
+    border-radius: 16px 0 0 16px;
+    height: 30px;
+    width: 26px;
+    color: #ffffff;
+    font-size: 10px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    background-color: #444b49;
+}
+.calculation .plus-btn {
+    border-radius: 0 16px 16px 0;
+    height: 30px;
+    width: 26px;
+    color: #ffffff;
+    font-size: 10px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background-color: #444b49;
+    border: transparent;
+}
+.calculation input {
+    height: 24px;
+    width: 92px;
+    display: flex;
+    justify-content:center;
+    /* align-items:center; */
+    text-align: center;
+    font-size:20px;
+}
+@media (max-width:760px){
+    #combination {
+        flex-direction: column;
+    }
+    .my-choice{
+        margin: 15px 0;
+    }
+}
